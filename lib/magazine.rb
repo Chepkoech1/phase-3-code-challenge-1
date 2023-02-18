@@ -6,3 +6,6 @@ class Magazine
     end
    
 end
+
+the_pulse = Magazine.new("The Pulse", "Fashion")
+puts the_pulse.name
