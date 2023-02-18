@@ -7,3 +7,7 @@ class Article
     end
    
 end
+
+
+article = Article.new(sandra_bii, the_pulse)
+puts article.author.name
