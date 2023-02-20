@@ -1,12 +1,16 @@
 #!/user/bin/env ruby
-
+require 'pry'
 require_relative '../config/environment.rb'
 
 
 puts Author.all
+# create author
+sandra_bii = Author.new("Sandra Bii")
+joan_bett = Author.new("Joan Bett")
+puts sandra_bii.name
+puts joan_bett.name
 
-
-# create name and category of music
+# create name and category 
 the_pulse = Magazine.new("The Pulse", "Fashion")
 puts the_pulse.name
 puts the_pulse.category
@@ -17,5 +21,124 @@ puts the_pulse.name
 puts the_pulse.category
 
 # create magazine
-magazine1 = Magazine.new("Time", "News")
-magazine2 = Magazine.new("The Pulse Magazine", "Artwork")
+
+the_pulse_magazine = Magazine.new("The Pulse Magazine", "Sports")
+
+puts the_pulse_magazine.category
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# author1 = Author.new("John Doe")
+# author2 = Author.new("Jane Smith")
+
+# magazine1 = Magazine.new("Sports Illustrated", "Sports")
+# magazine2 = Magazine.new("National Geographic", "Science and Nature")
+
+# author1.add_article(magazine1, "The History of Basketball")
+# author1.add_article(magazine2, "The Wonders of the Galapagos")
+
+# author2.add_article(magazine1, "The Future of Football")
+# author2.add_article(magazine2, "The Impact of Climate Change")
+
+# puts magazine1.article_titles # => ["The History of Basketball", "The Future of Football"]
+# puts magazine1.contributing_authors # => [author1, author2]
+# puts magazine2.article_titles # => ["The Wonders of the Galapagos", "The Impact of Climate Change"]
+# puts magazine2.contributing_authors # => [author1, author2]
+
+# puts author1.magazines.map(&:name) # => ["Sports Illustrated", "National Geographic"]
+# puts author1.topic_areas # => ["Sports", "Science and Nature"]
+# puts author2.magazines.map(&:name) # => ["Sports Illustrated", "National Geographic"]
+# puts author2.topic_areas # => ["Sports", "Science and Nature"]

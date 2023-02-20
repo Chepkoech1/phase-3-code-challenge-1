@@ -1,3 +1,4 @@
+
 class Author
     attr_reader :name
     @@all = []
@@ -24,6 +25,6 @@ class Author
 
 end
 
-sandra_bii = Author.new("Sandra Bii")
-puts sandra_bii.name
+# sandra_bii = Author.new("Sandra Bii")
+# puts sandra_bii.name
 

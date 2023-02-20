@@ -1,3 +1,4 @@
+require 'pry'
 class Magazine
     attr_reader :name, :category
 
@@ -36,17 +37,17 @@ class Magazine
    
 end
 
-# create name and category of music
-the_pulse = Magazine.new("The Pulse", "Fashion")
-puts the_pulse.name
-puts the_pulse.category
+# # create name and category of music
+# the_pulse = Magazine.new("The Pulse", "Fashion")
+# puts the_pulse.name
+# puts the_pulse.category
 
-the_pulse = Magazine.new("The Pulse Magazine", "Artwork")
+# the_pulse = Magazine.new("The Pulse Magazine", "Artwork")
 
-puts the_pulse.name
-puts the_pulse.category
+# puts the_pulse.name
+# puts the_pulse.category
 
-# create magazine
-magazine1 = Magazine.new("Time", "News")
-magazine2 = Magazine.new("The Pulse Magazine", "Artwork")
+# # create magazine
+# magazine1 = Magazine.new("Time", "News")
+# magazine2 = Magazine.new("The Pulse Magazine", "Artwork")
 
