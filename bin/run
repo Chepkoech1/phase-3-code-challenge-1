@@ -3,6 +3,41 @@ require 'pry'
 require_relative '../config/environment.rb'
 
 
+# vogue = Magazine.new("Vogue","Fashion")
+# wired = Magazine.new("Wired", "Technology")
+
+# # adding some articles to the magazine
+# vogue_article = Article.new("Fashion Trends for 2023", "Jane Smith")
+# vogue.add_article(vogue_article)
+
+# wired_article = Article.new("The Future of AI", "John Doe")
+# wired.add_article(wired_article)
+
+# # list of all magazines
+# Magazine.all
+
+# # finding magazine by name
+
+# Magazine.find_by_name("Vogue")
+
+# # list of contributors
+# vogue.contributors
+
+# # list of article titles
+# vogue.article_titles
+
+# # category of magazine
+# vogue.category
+
+# # change the name of magazine
+# vogue.name = "Vogue UK"
+
+
+
+
+
+
+
 puts Author.all
 # create author
 sandra_bii = Author.new("Sandra Bii")
@@ -121,24 +156,3 @@ puts the_pulse_magazine.category
 
 
 
-# author1 = Author.new("John Doe")
-# author2 = Author.new("Jane Smith")
-
-# magazine1 = Magazine.new("Sports Illustrated", "Sports")
-# magazine2 = Magazine.new("National Geographic", "Science and Nature")
-
-# author1.add_article(magazine1, "The History of Basketball")
-# author1.add_article(magazine2, "The Wonders of the Galapagos")
-
-# author2.add_article(magazine1, "The Future of Football")
-# author2.add_article(magazine2, "The Impact of Climate Change")
-
-# puts magazine1.article_titles # => ["The History of Basketball", "The Future of Football"]
-# puts magazine1.contributing_authors # => [author1, author2]
-# puts magazine2.article_titles # => ["The Wonders of the Galapagos", "The Impact of Climate Change"]
-# puts magazine2.contributing_authors # => [author1, author2]
-
-# puts author1.magazines.map(&:name) # => ["Sports Illustrated", "National Geographic"]
-# puts author1.topic_areas # => ["Sports", "Science and Nature"]
-# puts author2.magazines.map(&:name) # => ["Sports Illustrated", "National Geographic"]
-# puts author2.topic_areas # => ["Sports", "Science and Nature"]
