@@ -30,7 +30,7 @@ To use this repo on your machine require some simple steps:
 ## Running the application
   - Run the application on the terminal
 
-     ruby bin/run
+     ``ruby bin/run``
 
 ## Authors
   - Sandra
